@@ -28,6 +28,6 @@
 
 		</header>
 		<!-- Menu -->
-		<?php include(PATH_VIEWS.'menu.php'); ?>
+		
 		<!-- Vue -->
 		<div class="container">
