@@ -16,7 +16,9 @@
 
 
 <!--  Début de la page -->
-accueil
+<br>
+<img class="responsive-img" src="<?= PATH_IMAGES ?>accueil.jpg">
+
 <!--  Fin de la page -->
 
 <!--  Pied de page -->
