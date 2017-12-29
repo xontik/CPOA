@@ -20,8 +20,8 @@
 
 		<link href="<?= PATH_CSS ?>materialize.min.css" rel="stylesheet">
 		
-		<script type="text/javascript" src="<?= PATH_SCRIPTS ?>jquery.js"></script>
-		<script type="text/javascript" src="<?= PATH_SCRIPTS ?>partenaires.js"></script>
+		
+		
 	</head>
 	<body>
 		<!-- En-tête -->
@@ -48,6 +48,7 @@
 				  </ul>
 				</div>
 			</nav>
+			
 		</header>
 		<!-- Menu -->
 		

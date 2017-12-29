@@ -11,7 +11,8 @@
  *
  */
 ?>
-
+		
+	
 			<!-- fin de page -->
 			</div>
 		<!-- Pied de page -->
@@ -36,5 +37,8 @@
 				</footer>
             
 		</div>
+	<script type="text/javascript" src="<?= PATH_SCRIPTS ?>jquery.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+	<script type="text/javascript" src="<?= PATH_SCRIPTS ?>partenaires.js"></script>
 	</body>
 </html>
