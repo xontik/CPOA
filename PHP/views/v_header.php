@@ -20,7 +20,7 @@
 
 		<link href="<?= PATH_CSS ?>materialize.min.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		
+		<LINK rel="stylesheet" href="<?=PATH_CSS ?>billeterie_p2.css"> 
 		
 	</head>
 	<body>

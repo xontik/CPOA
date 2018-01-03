@@ -36,7 +36,7 @@
           <label for="nb_billet">Nombre de place:</label>
         </div>
     </div>
-	 <button class="btn waves-effect waves-light" type="submit" name="action">Suivant
+	 <button class="btn waves-effect waves-light" type="button" name="action" onClick="document.location='index.php?page=billeterie_p2'">Suivant
     <i class="material-icons right">send</i>
   </button>
 </form>
