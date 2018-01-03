@@ -16,8 +16,7 @@
 
 
 <!--  Début de la page -->
-<br>
-<img class="responsive-img" src="<?= PATH_IMAGES ?>accueil.jpg">
+<img class="responsive-img" src="<?= PATH_IMAGES ?>accueil.jpg" style="margin:30px 0 30px 0;">
 
 <!--  Fin de la page -->
 
