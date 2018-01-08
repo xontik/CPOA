@@ -31,7 +31,7 @@
     </div>
 	<div class="row">
         <div class="input-field col s5">
-          <input id="nb_billet" type="number" min="1" class="validate">
+          <input id="nb_billet" type="number" min="1" max="10" class="validate">
           <label for="nb_billet">Nombre de place:</label>
         </div>
     </div>
