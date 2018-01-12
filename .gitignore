@@ -121,6 +121,7 @@ fabric.properties
 modules.xml
 .idea/misc.xml
 *.ipr
+.idea/*
 
 # Sonarlint plugin
 .idea/sonarlint
@@ -128,6 +129,7 @@ modules.xml
 ### Java ###
 # Compiled class file
 *.class
+class/*
 
 # Log file
 *.log
