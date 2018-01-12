@@ -5,6 +5,6 @@ if(isset($_SESSION['logged']) && $_SESSION['logged']) {
 	exit(-1);
 	
 } else {
-	require_once(PATH_VIEWS.'partenaires.php');
-	
+	require_once(PATH_VIEWS.'billeterie.php'); 
+
 }

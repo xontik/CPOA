@@ -15,6 +15,7 @@
 	
 			<!-- fin de page -->
 			</div>
+			</main>
 		<!-- Pied de page -->
 		<div class="footer">
 				<footer class="page-footer">
@@ -31,7 +32,7 @@
 				  </div>
 				  <div class="footer-copyright">
 					<div class="container">
-					© 2017 Copyright Text
+					© 2018 Copyright Text
 					</div>
 				  </div>
 				</footer>

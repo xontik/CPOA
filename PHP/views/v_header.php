@@ -20,7 +20,8 @@
 
 		<link href="<?= PATH_CSS ?>materialize.min.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<LINK rel="stylesheet" href="<?=PATH_CSS ?>billeterie_p2.css"> 
+		<link rel="stylesheet" href="<?=PATH_CSS ?>billeterie.css">
+		<link rel="stylesheet" href="<?=PATH_CSS ?>footerColle.css">
 		
 	</head>
 	<body>
@@ -30,9 +31,17 @@
 				<div class="nav-wrapper">
 				  <a href="index.php?page=accueil" class="brand-logo"> <img class="responsive-img" src="<?= PATH_IMAGES ?>logo.jpg" width="250px"></a>
 				  <ul id="nav-mobile" class="right hide-on-med-and-down">
-					<li><a href="index.php?page=billeterie_p2">Billeterie</a></li>
-					<li><a href="#">Contact</a></li>
-					<li><a href="index.php?page=partenaires">Partenaires</a></li>
+					<?php
+					if(isset($_SESSION['logged']) && $_SESSION['logged']) {
+						echo '<li><a href="index.php?page=ajout_promo">Ajouter une promotion</a></li>';
+						echo '<li><a href="index.php?page=connexion">Se déconnecter</a></li>';
+					} else {
+						echo '<li><a href="index.php?page=billeterie">Billeterie</a></li>';
+						echo '<li><a href="#">Contact</a></li>';
+						echo '<li><a href="index.php?page=partenaires">Partenaires</a></li>';
+						echo '<li><a href="index.php?page=connexion">Connexion</a></li>';
+					}
+					?>
 				  </ul>
 				</div>
 			</nav>
@@ -42,4 +51,5 @@
 		<!-- Menu -->
 		
 		<!-- Vue -->
+		<main>
 		<div class="container">

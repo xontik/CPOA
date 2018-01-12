@@ -20,6 +20,8 @@ const BD_DBNAME = 'p1502484';
 const BD_USER = 'p1502484';
 const BD_PWD = '240617';
 
+const LOGIN = "admin";
+const PASSWORD = "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918";
 
 
 //dossiers racines du site
