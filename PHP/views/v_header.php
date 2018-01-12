@@ -30,7 +30,7 @@
 				<div class="nav-wrapper">
 				  <a href="index.php?page=accueil" class="brand-logo"> <img class="responsive-img" src="<?= PATH_IMAGES ?>logo.jpg" width="250px"></a>
 				  <ul id="nav-mobile" class="right hide-on-med-and-down">
-					<li><a href="index.php?page=billeterie">Billeterie</a></li>
+					<li><a href="index.php?page=billeterie_p2">Billeterie</a></li>
 					<li><a href="#">Contact</a></li>
 					<li><a href="index.php?page=partenaires">Partenaires</a></li>
 				  </ul>

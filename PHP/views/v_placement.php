@@ -6,31 +6,32 @@
 <img class="responsive-img" src="<?= PATH_IMAGES ?>placement.png" width="800px" style="display:block;margin:auto;">
 <form action="#" method="get" class="col s12"style="margin-top:30px;">
 	<div class="row">
-		<div class="input-field col s5" >
+	<div class="col s6">
+		<div class="input-field" >
 			<select>
 			  <option value="" disabled selected>Choisissez un niveau:</option>
-			  <option value="1">niveau 1</option>
-			  <option value="2">niveau 2</option>
+			  <?php
+				foreach($emplacements as $emplacement) {
+					echo '<option value="'.$emplacement->getTypeEmplacement().'">'.$emplacement->getTypeEmplacement().'</option>';
+				}
+				?>
 			</select>
 			<label>Niveau:</label>
 		</div>
-	</div>
-	
-	<div class="row">
-		<div class="input-field col s5" >
+		<br>
+		<div class="input-field" >
 			<select>
-			  <option value="" disabled selected>Choisissez un block:</option>
-			  <option value="1">A</option>
-			  <option value="2">B</option>
-			  <option value="2">C</option>
-			  <option value="2">D</option>
+				<option value="" disabled selected>Choisissez un bloc:</option>
+				<?php
+				foreach($emplacements as $emplacement) {
+					echo '<option value="'.$emplacement->getBloc().'">'.$emplacement->getBloc().'</option>';
+				}
+				?>
 			</select>
-			<label>Block:</label>
+			<label>Bloc:</label>
 		</div>
-	</div>
-	
-	<div class="row">
-		<div class="input-field col s5" >
+		<br>
+		<div class="input-field" >
 			<select>
 			  <option value="" disabled selected>Choisissez une place:</option>
 			  <option value="1">51</option>
@@ -42,10 +43,27 @@
 		</div>
 	</div>
 	
+	<div class=" col s6">
+        <div class="input-field">
+          <input id="nb_billet" type="number" min="1" max="10" class="validate">
+          <label for="nb_billet">Nombre de place:</label>
+        </div>
+		<br>
+        <div class="input-field">
+          <input id="code_promo" type="text" class="validate">
+          <label for="code_promo">Code promo:</label>
+        </div>
+		<br>
+        <div class="input-field">
+          <input id="num_licencie" type="text" class="validate">
+          <label for="num_licencie">Numéro de licence:</label>
+        </div>
+    </div>
+	
 	<button class="btn waves-effect waves-light" type="button" name="action"  style="margin-bottom:30px;">Finaliser l'achat
 		<i class="material-icons right">send</i>
 	</button>
-	
+</div>
 	
 </form>
 <!--  Fin de la page -->

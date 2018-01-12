@@ -15,10 +15,10 @@ error_reporting(E_ALL);
 const DEBUG = true; // production : false; dev : true
 
 // Accès base de données
-const BD_HOST = 'localhost';
-const BD_DBNAME = 'cpoa';
-const BD_USER = 'root';
-const BD_PWD = '';
+const BD_HOST = 'iutdoua-web.univ-lyon1.fr';
+const BD_DBNAME = 'p1502484';
+const BD_USER = 'p1502484';
+const BD_PWD = '240617';
 
 
 
@@ -29,6 +29,7 @@ define('PATH_ASSETS','./assets/');
 define('PATH_LIB','./lib/');
 define('PATH_MODELS','./models/');
 define('PATH_VIEWS','./views/v_');
+
 
 
 define('PATH_CSS', PATH_ASSETS.'css/');
