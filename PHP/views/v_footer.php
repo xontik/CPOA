@@ -11,8 +11,8 @@
  *
  */
 ?>
-		
-	
+
+
 			<!-- fin de page -->
 			</div>
 			</main>
@@ -36,11 +36,28 @@
 					</div>
 				  </div>
 				</footer>
-            
+
 		</div>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
 	<script src="<?= PATH_SCRIPTS ?>materialize.min.js"></script>
 	<script type="text/javascript" src="<?= PATH_SCRIPTS ?>partenaires.js"></script>
+	<?php
+	if(isset($_SESSION["toast"])){ ?>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			Materialize.toast("<?= $_SESSION["toast"] ?>", 4000);
+			console.log("test");
+		});
+
+	</script>
+<?php
+echo "<pre>";
+var_dump($_SESSION);
+echo "</pre>";
+$_SESSION['toast'] = NULL;
+echo "<pre>";
+var_dump($_SESSION);
+echo "</pre>";
+} ?>
 	</body>
 </html>
