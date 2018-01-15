@@ -30,7 +30,7 @@
 					</div>
 				</div>
 				<div class="card-action">
-				  <a href="index.php?page=placemen&jour=2">CHOISIR</a>
+				  <a href="index.php?page=placement&jour=2">CHOISIR</a>
 				</div>
 			  </div>
 	</div>
