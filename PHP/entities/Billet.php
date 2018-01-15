@@ -4,7 +4,7 @@ class Billet {
 	private $_identifiant;
 	private $_prixBillet;
 
-	public function __construct__($identifiant, $prixBillet) {
+	public function __construct($identifiant, $prixBillet) {
 		$this->_identifiant = $identifiant;
 		$this->_prixBillet = $prixBillet;
 	}
