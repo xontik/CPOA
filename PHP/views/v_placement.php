@@ -6,6 +6,7 @@
 <img class="responsive-img" src="<?= PATH_IMAGES ?>placement.png" width="800px" style="display:block;margin:auto;">
 
 <form action="index.php?page=achat" method="post" class="col s12" style="margin-top:30px;">
+	<input type="hidden" value="<?= htmlspecialchars($_GET['jour']) ?>" name="jour">
 	<div class="row">
 		<div class="col s6 offset-s3">
 			<div class="input-field" >

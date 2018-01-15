@@ -7,7 +7,7 @@
 			  <div class="card blue-grey darken-1">
 				<div class="card-content white-text">
 				  <span class="card-title">Jour 1</span>
-				  <div class="desc"> 
+				  <div class="desc">
 						Samedi 19 mai <br>
 						A partir de 8h <br>
 						Qualifications
@@ -18,12 +18,12 @@
 				</div>
 			  </div>
 	</div>
-	
+
 	<div class="element">
 			  <div class="card blue-grey darken-1">
 				<div class="card-content white-text">
 				  <span class="card-title">Jour 2</span>
-					<div class="desc"> 
+					<div class="desc">
 						Dimanche 20 mai<br>
 						A partir de 8h<br>
 						Qualifications + 1er Tour
@@ -34,7 +34,7 @@
 				</div>
 			  </div>
 	</div>
-	
+
     <div class="element">
 
 			  <div class="card blue-grey darken-1">
@@ -51,7 +51,7 @@
 				</div>
 			  </div>
 	</div>
-	
+
     <div class="element">
 			  <div class="card blue-grey darken-1">
 				<div class="card-content white-text">
@@ -67,7 +67,7 @@
 				</div>
 			  </div>
 	</div>
-	
+
 	<div class="element">
 			  <div class="card blue-grey darken-1">
 				<div class="card-content white-text">
@@ -83,7 +83,7 @@
 				</div>
 			  </div>
 	</div>
-	
+
 	<div class="element">
 			  <div class="card blue-grey darken-1">
 				<div class="card-content white-text">
@@ -99,12 +99,12 @@
 				</div>
 			  </div>
 	</div>
-	
+
 	<div class="element">
 			  <div class="card blue-grey darken-1">
 				<div class="card-content white-text">
 				  <span class="card-title">Jour 7</span>
-					  <div class="desc"> 
+					  <div class="desc">
 						  Vendredi 25 mai<br>
 						  A partir de 8h<br>
 						  1/4 de Finale
@@ -115,7 +115,7 @@
 				</div>
 			  </div>
 	</div>
-	
+
 	<div class="element">
 
 			  <div class="card blue-grey darken-1">
@@ -132,7 +132,7 @@
 				</div>
 			  </div>
 	</div>
-	
+
 	<div class="element">
 
 			  <div class="card blue-grey darken-1">
@@ -148,9 +148,9 @@
 				  <a href="index.php?page=placement&jour=9">CHOISIR</a>
 				</div>
 			  </div>
-	
+
 	</div>
-    
+
 </div>
 <!--  Fin de la page -->
 
