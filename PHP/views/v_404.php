@@ -12,5 +12,5 @@
  */
 ?>
 <?php require_once(PATH_VIEWS.'header.php');?>
-<p>Erreur 404, page introuvable.</p>
+<h2>Erreur 404, page introuvable.</h2>
 <?php require_once(PATH_VIEWS.'footer.php'); 

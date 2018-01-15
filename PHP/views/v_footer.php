@@ -51,13 +51,9 @@
 
 	</script>
 <?php
-echo "<pre>";
-var_dump($_SESSION);
-echo "</pre>";
+
 $_SESSION['toast'] = NULL;
-echo "<pre>";
-var_dump($_SESSION);
-echo "</pre>";
+
 } ?>
 	</body>
 </html>
