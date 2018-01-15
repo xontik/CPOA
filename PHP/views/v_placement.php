@@ -6,6 +6,7 @@
 <img class="responsive-img" src="<?= PATH_IMAGES ?>placement.png" width="800px" style="display:block;margin:auto;">
 
 <form action="index.php?page=achat" method="post" class="col s12" style="margin-top:30px;">
+	<input type="hidden" value="<?= htmlspecialchars($_GET['jour']) ?>" name="jour">
 	<div class="row">
 	<div class="col s6">
 		<div class="input-field" >
@@ -18,20 +19,9 @@
 				?>
 			</select>
 			<label>Bloc :</label>
-		</div>
-		<br>
-		<div class="input-field" >
-			<select name="place" required>
-			  <option value="" disabled selected>Choisissez une place :</option>
-			  <option value="1">51</option>
-			  <option value="2">55</option>
-			  <option value="3">56</option>
-			  <option value="4">57</option>
-			</select>
-			<label>Place :</label>
-		</div>
+		</div>		
 	</div>
-	
+
 	<div class=" col s6">
         <div class="input-field">
           <input id="nb_billet" name="nbPlace" type="number" min="1" max="10" class="validate" required>
@@ -48,13 +38,13 @@
           <label for="num_licencie">Numéro de licence :</label>
         </div>
     </div>
-	
-	
+
+
 	<button class="btn waves-effect waves-light" type="submit" name="achat"  style="margin-bottom:30px;">Finaliser l'achat
 		<i class="material-icons right">send</i>
 	</button>
 </div>
-	
+
 </form>
 <!--  Fin de la page -->
 
