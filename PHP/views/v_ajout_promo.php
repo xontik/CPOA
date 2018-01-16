@@ -45,17 +45,10 @@
 
  <form action="#" method="post" class="col s12" style="margin-top:30px;" >
 	<div class="row">
-<<<<<<< HEAD
-		<div class="col s6">
+		<div class="col s6 offset-s3">
 			<div class="input-field">
 				<select name="promotion" required>
 					<option value="" disabled selected>Choisissez un promotion :</option>
-=======
-		<div class="col s6 offset-s3">
-			<div class="input-field" >
-				<select name="bloc" required>
-					<option value="" disabled selected>Choisissez un code promo:</option>
->>>>>>> a5c8418cdf11579ea9ea31fe24022261029adfde
 					<?php
 					foreach($promotions as $promotion) {
 						echo '<option value="'.$promotion->getIdPromotion().'">'.$promotion->getTypePromotion().'</option>';
@@ -74,19 +67,11 @@
 				  <input id="pourcentage" name="pourcentage" type="number" min="1" max="100" class="validate" required>
 				  <label for="pourcentage">Pourcentage de réduction :</label>
 			</div>
-
-<<<<<<< HEAD
-			<button class="btn waves-effect waves-light" type="submit" name="modifPromo" >Valider
-				<i class="material-icons right">send</i>
-			</button>
-=======
-			<div class="col s6 offset-s4">
-				<button class="btn waves-effect waves-light" type="submit" name="action" >Valider
+			<div class="col s6 offset-s3">
+				<button class="btn waves-effect waves-light" type="submit" name="modifPromo" >Valider
 					<i class="material-icons right">send</i>
 				</button>
 			</div>
->>>>>>> a5c8418cdf11579ea9ea31fe24022261029adfde
-
 		</div>
 	</div>
 </form>
