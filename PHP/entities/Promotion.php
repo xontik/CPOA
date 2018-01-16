@@ -6,15 +6,15 @@ class Promotion {
 	private $_typePromotion;
 	private $_nbBilletRestant;
 	private $_pourcentage;
-	
+
 	public function __construct($idPromotion,$code,$typePromotion,$nbBilletRestant,$pourcentage) {
-        $this->_idPromotion = $idpromotion;
+        $this->_idPromotion = $idPromotion;
         $this->_code = $code;
 		$this->_typePromotion = $typePromotion;
         $this->_nbBilletRestant = $nbBilletRestant;
 		$this->_pourcentage = $pourcentage;
     }
-	
+
 	public function setIdPromotion($idPromotion){
         $this->_idPromotion = $idPromotion;
     }
@@ -30,7 +30,7 @@ class Promotion {
 	public function setPourcentage($pourcentage){
         $this->_pourcentage = $pourcentage;
     }
-	
+
 	 public function getIdPromotion(){
         return $this->_idPromotion;
     }
@@ -46,3 +46,4 @@ class Promotion {
 	 public function getPourcentage(){
         return $this->_pourcentage;
     }
+}

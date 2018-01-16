@@ -1,24 +1,29 @@
 <?php
-require_once(PATH_MODELS.'EmplacementDAO.php');
+
 require_once(PATH_MODELS.'NiveauDAO.php');
-require_once(PATH_ENTITY.'Niveau.php');
+require_once(PATH_MODELS.'PromotionDAO.php');
 
 $niveauDAO = new NiveauDAO(DEBUG);
+$promotionDAO = new PromotionDAO(DEBUG);
+
 $niveaux = $niveauDAO->getNiveaux();
+$promotions = $promotionDAO->getPromotions();
 
 // Modification du prix du niveau sélectionné
 if(isset($_POST['prixNiveau'])) {
-	$niveauId = array();
-	foreach($niveaux as $niveau) {
-		$niveauId[] = $niveau->getIdNiveau();
+	$result = $niveauDAO->changePrixNiveau(htmlspecialchars($_POST['niveau']), htmlspecialchars($_POST['prix']));
+	if($result == true) {
+		$_SESSION['toast'] = "Modifcation réussie";
+	} else {
+		$_SESSION['toast'] = "Erreur lors de la modification";
 	}
-	if(in_array($_POST['niveau'], $niveauId)) {
-		$result = $niveauDAO->changePrixNiveau(htmlspecialchars($_POST['niveau']), htmlspecialchars($_POST['prix']));
-		if($result) {
-			echo 'Modification réussi';
-		} else {
-			echo 'ERREUR';
-		}
+
+} elseif(isset($_POST['modifPromo'])) {
+	$result = $promotionDAO->changePromotion(htmlspecialchars($_POST['promotion']), htmlspecialchars($_POST['nbBillet']), htmlspecialchars($_POST['pourcentage']));
+	if($result) {
+		$_SESSION['toast'] = "Modification réussie";
+	} else {
+		$_SESSION['toast'] = "Erreur lors de la modification";
 	}
 }
 
