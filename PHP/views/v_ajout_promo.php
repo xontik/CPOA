@@ -3,7 +3,7 @@
 <!--  Début de la page -->
 <form action="#" method="post" class="col s12" style="margin-top:30px;">
 	<div class="row">
-		<div class="col s6">
+		<div class="col s6 offset-s3">
 			<div class="input-field" >
 				<select name="niveau" required>
 					<option value="" disabled selected>Choisissez un niveau :</option>
@@ -34,7 +34,7 @@
 				<label for="prix">Prix en €</label>
 			</div>
 
-			<div>
+			<div class="col s6 offset-s4">
 				<button class="btn waves-effect waves-light" type="submit" name="prixNiveau" >Valider
 					<i class="material-icons right">send</i>
 				</button>
@@ -45,7 +45,7 @@
 
  <form action="#" method="post" class="col s12" style="margin-top:30px;" >
 	<div class="row">
-		<div class="col s6">
+		<div class="col s6 offset-s3">
 			<div class="input-field" >
 				<select name="bloc" required>
 					<option value="" disabled selected>Choisissez un code promo:</option>
@@ -68,9 +68,11 @@
 				  <label for="nb_billet">Pourcentage de réduction :</label>
 			</div>
 
-			<button class="btn waves-effect waves-light" type="submit" name="action" >Valider
-				<i class="material-icons right">send</i>
-			</button>
+			<div class="col s6 offset-s4">
+				<button class="btn waves-effect waves-light" type="submit" name="action" >Valider
+					<i class="material-icons right">send</i>
+				</button>
+			</div>
 
 		</div>
 	</div>

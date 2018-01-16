@@ -1,16 +1,3 @@
-<?php
-/*
- * DS PHP
- * Vue Entete HTML du site
- *
- * Copyright 2017, Eric Dufour
- * http://techfacile.fr
- *
- * Licensed under the MIT license:
- * http://www.opensource.org/licenses/MIT
- *
- */
-?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -35,6 +22,7 @@
 					<?php
 					if(isset($_SESSION['logged']) && $_SESSION['logged']) { ?>
 						<li><a href="index.php?page=ajout_promo">Ajouter une promotion</a></li>
+						<li><a href="index.php?page=modif_promo">Modifier une promotion</a></li>
 						<li><a href="index.php?page=connexion">Se déconnecter</a></li>
 					<?php } else { ?>
 						<li><a href="index.php?page=billeterie">Billeterie</a></li>
