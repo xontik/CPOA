@@ -4,7 +4,8 @@
 <form action="#" method="post" >
 <div class="row"> 
 	<div class="col s6 offset-s3">
-		<h1>Nous contacter</h1>
+		
+		<h1 style="text-align:center;">Nous contacter</h1>
 		
 		<div class="input-field col s6">
           <input  id="first_name" type="text" class="validate">
@@ -22,6 +23,7 @@
           <textarea id="textarea1" class="materialize-textarea"></textarea>
           <label for="textarea1">Quelle est votre question ? </label>
         </div>
+	
 		<div class=" col s6 offset-s3">
 			<button class="btn waves-effect waves-light" type="submit" name="achat"  style="margin-bottom:30px;">Envoyer
 				<i class="material-icons right">send</i>
