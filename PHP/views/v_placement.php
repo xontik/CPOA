@@ -35,10 +35,11 @@
 			  <input id="num_licencie" name="licence" type="text" class="validate">
 			  <label for="num_licencie">Numéro de licence :</label>
 			</div>
-			
-			<button class="btn waves-effect waves-light" type="submit" name="achat"  style="margin-bottom:30px;">Finaliser l'achat
-				<i class="material-icons right">send</i>
-			</button>
+			<div class="col s6 offset-s3">
+				<button class="btn waves-effect waves-light" type="submit" name="achat"  style="margin-bottom:30px;">Finaliser l'achat
+					<i class="material-icons right">send</i>
+				</button>
+			</div>
 		</div>
 	</div>	
 </form>

@@ -3,16 +3,23 @@
 
 
 <!--  Début de la page -->
-<h3>Les partenaires titre:</h3>
+<h3 style="text-align:center;margin-top:40px; margin-bottom:40px">Les partenaires titre:</h3>
+
 <a href="http://www.auvergnerhonealpes.fr"><img class="responsive-img" src="<?= PATH_IMAGES ?>rara.png" style="margin-right:60px;"></a>
 <a href="https://www.lyon.fr/"><img class="responsive-img" src="<?= PATH_IMAGES ?>vlyon.png" width="300px"></a>
-<h3>Les partenaires premiers:</h3>
+	
+
+
+<h3 style="text-align:center; margin-top:40px; margin-bottom:50px">Les partenaires premiers:</h3>
+
 <a href="https://mabanque.bnpparibas/"><img class="responsive-img" src="<?= PATH_IMAGES ?>bnp.png" width="200px" style="margin-right:40px;"></a>
 <a href="http://www.byblos-group-holding.com/"><img class="responsive-img" src="<?= PATH_IMAGES ?>byblos.png" width="200px" style="margin-right:40px;"></a>
 <a href="https://www.emirates.com/fr/french/"><img class="responsive-img" src="<?= PATH_IMAGES ?>emirates.png" width="150px" style="margin-right:40px;" ></a>
 <a href="http://www.eiffage.com/"><img class="responsive-img" src="<?= PATH_IMAGES ?>eiffage.png" width="200px" style="margin-right:40px;"></a>
-<h3>Les partenaires officiel:</h3>
-<div class="carousel">
+
+<h3 style="text-align:center;margin-top:40px;">Les partenaires officiel:</h3>
+
+<div class="carousel" >
     <a class="carousel-item" href="http://www.groupedlsi.com/"><img src="<?= PATH_IMAGES ?>dlsi.png"></a>
 	<a class="carousel-item" href="http://www.fft.fr/"><img src="<?= PATH_IMAGES ?>fft.png" width="50px"></a>
     <a class="carousel-item" href="https://www.gravotech.fr/"><img src="<?= PATH_IMAGES ?>gravotech.png"></a>
