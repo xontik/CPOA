@@ -74,8 +74,9 @@ abstract class DAO
     $res = true;
     try
     {
-	$pdos = $this->_requete($sql, $args);
-      $pdos->closeCursor();
+	    $pdos = $this->_requete($sql, $args);
+        $count = $pdos->rowCount();
+        $pdos->closeCursor();
     }
     catch(PDOException $e)
     {
@@ -83,6 +84,10 @@ abstract class DAO
         die($e->getMessage());
       $this->_erreur = 'query';
       $res = false;
+    }
+
+    if($count == 0) {
+        $res = false;
     }
     return $res;
   }

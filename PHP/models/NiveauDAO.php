@@ -33,6 +33,7 @@ class NiveauDAO extends DAO {
 	public function changePrixNiveau($idNiveau, $prixNiveau) {
 		$res = $this->queryBdd('UPDATE Niveau SET prixNiveau = ? WHERE idNiveau = ?', array($prixNiveau, $idNiveau));
 
+		echo $res;
 		return $res;
 	}
 }
