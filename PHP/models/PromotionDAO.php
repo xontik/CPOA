@@ -24,4 +24,10 @@ class PromotionDAO extends DAO {
 
 		return $res;
 	}
+
+	public function changeCodePromo($idPromotion, $code) {
+		$res = $this->queryBdd('UPDATE Promotion SET code = ? WHERE idPromotion = ?', array($code, $idPromotion));
+
+		return $res;
+	}
 }
