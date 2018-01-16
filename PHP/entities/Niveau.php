@@ -4,7 +4,7 @@ class Niveau {
 	private $_idNiveau;
 	private $_prixNiveau;
 
-	public function __construct__($idNiveau, $prixNiveau) {
+	public function __construct($idNiveau, $prixNiveau) {
 		$this->_idNiveau = $idNiveau;
 		$this->_prixNiveau = $prixNiveau;
 	}
