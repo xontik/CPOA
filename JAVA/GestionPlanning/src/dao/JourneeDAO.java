@@ -35,7 +35,7 @@ public class JourneeDAO {
         return journees;
     }
 
-    public Journee map(ResultSet rs) throws SQLException{
+    public static Journee map(ResultSet rs) throws SQLException{
         Journee journee = new Journee();
         journee.setDateJournee(Instant.ofEpochMilli(rs.getDate("dateJournee").getTime()).atZone(ZoneId.systemDefault()).toLocalDate());
         journee.setIdJournee(rs.getInt("idJournee"));

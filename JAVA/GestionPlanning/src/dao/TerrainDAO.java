@@ -34,7 +34,7 @@ public class TerrainDAO {
         return list;
     }
 
-    public Terrain map(ResultSet rs) throws SQLException{
+    public static Terrain map(ResultSet rs) throws SQLException{
         Terrain terrain = new Terrain();
         terrain.setCapacite(rs.getInt("capacite"));
         terrain.setIdTerrain(rs.getInt("idTerrain"));

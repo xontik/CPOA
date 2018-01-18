@@ -25,4 +25,12 @@ public class Journee {
     public void setDateJournee(LocalDate dateJournee) {
         this.dateJournee = dateJournee;
     }
+
+    @Override
+    public String toString() {
+        return "Journee{" +
+                "idJournee=" + idJournee +
+                ", dateJournee=" + dateJournee +
+                '}';
+    }
 }

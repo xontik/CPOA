@@ -40,4 +40,14 @@ public class Terrain {
     public void setCapacite(int capacite) {
         this.capacite = capacite;
     }
+
+    @Override
+    public String toString() {
+        return "Terrain{" +
+                "nom='" + nom + '\'' +
+                ", idTerrain=" + idTerrain +
+                ", numero=" + numero +
+                ", capacite=" + capacite +
+                '}';
+    }
 }

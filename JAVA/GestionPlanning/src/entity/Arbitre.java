@@ -55,4 +55,27 @@ public class Arbitre {
         return nom + " " + prenom + " (" + nationalite.getShortName() +")";
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Arbitre arbitre = (Arbitre) o;
+
+        if (idArbitre != arbitre.idArbitre) return false;
+        if (!nom.equals(arbitre.nom)) return false;
+        if (!prenom.equals(arbitre.prenom)) return false;
+        if (!nationalite.equals(arbitre.nationalite)) return false;
+        return type.equals(arbitre.type);
+    }
+
+    @Override
+    public int hashCode() {
+        int result = nom.hashCode();
+        result = 31 * result + prenom.hashCode();
+        result = 31 * result + idArbitre;
+        result = 31 * result + nationalite.hashCode();
+        result = 31 * result + type.hashCode();
+        return result;
+    }
 }

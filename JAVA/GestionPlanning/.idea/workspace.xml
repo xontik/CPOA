@@ -12,86 +12,89 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AdminGUI.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App/AdminGUI.java">
+      <file leaf-file-name="MatchDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dao/MatchDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="605">
-              <caret line="231" column="45" lean-forward="false" selection-start-line="231" selection-start-column="45" selection-end-line="231" selection-end-column="45" />
+            <state relative-caret-position="-7">
+              <caret line="27" column="45" lean-forward="true" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2596#2597#0" expanded="true" />
-                <element signature="e#2625#2626#0" expanded="true" />
-                <element signature="e#3235#3236#0" expanded="true" />
-                <element signature="e#3274#3275#0" expanded="true" />
-                <element signature="e#3317#3318#0" expanded="true" />
-                <element signature="e#3355#3356#0" expanded="true" />
-                <element signature="e#3406#3407#0" expanded="true" />
-                <element signature="e#3452#3453#0" expanded="true" />
-                <element signature="e#3498#3499#0" expanded="true" />
-                <element signature="e#3540#3541#0" expanded="true" />
-                <element signature="e#3582#3583#0" expanded="true" />
-                <element signature="e#3616#3617#0" expanded="true" />
-                <element signature="e#3649#3650#0" expanded="true" />
-                <element signature="e#3678#3679#0" expanded="true" />
-                <element signature="e#3713#3714#0" expanded="true" />
-                <element signature="e#3744#3745#0" expanded="true" />
-                <element signature="e#3792#3793#0" expanded="true" />
-                <element signature="e#3835#3836#0" expanded="true" />
-                <element signature="e#3882#3883#0" expanded="true" />
-                <element signature="e#3924#3925#0" expanded="true" />
-                <element signature="e#3973#3974#0" expanded="true" />
-                <element signature="e#4017#4018#0" expanded="true" />
-                <element signature="e#4063#4064#0" expanded="true" />
-                <element signature="e#4104#4105#0" expanded="true" />
-                <element signature="e#4143#4144#0" expanded="true" />
-                <element signature="e#4178#4179#0" expanded="true" />
-                <element signature="e#4209#4210#0" expanded="true" />
-                <element signature="e#4237#4238#0" expanded="true" />
-                <element signature="e#4281#4282#0" expanded="true" />
-                <element signature="e#4315#4316#0" expanded="true" />
-                <element signature="e#4365#4366#0" expanded="true" />
-                <element signature="e#4405#4406#0" expanded="true" />
-                <element signature="e#4444#4445#0" expanded="true" />
-                <element signature="e#4476#4477#0" expanded="true" />
-                <element signature="e#4515#4516#0" expanded="true" />
-                <element signature="e#4547#4548#0" expanded="true" />
-                <element signature="e#4586#4587#0" expanded="true" />
-                <element signature="e#4618#4619#0" expanded="true" />
-                <element signature="e#4662#4663#0" expanded="true" />
-                <element signature="e#4701#4702#0" expanded="true" />
-                <element signature="e#4743#4744#0" expanded="true" />
-                <element signature="e#4780#4781#0" expanded="true" />
-                <element signature="e#4829#4830#0" expanded="true" />
-                <element signature="e#4873#4874#0" expanded="true" />
-                <element signature="e#4918#4919#0" expanded="true" />
-                <element signature="e#4958#4959#0" expanded="true" />
-                <element signature="e#5013#5014#0" expanded="true" />
-                <element signature="e#5053#5054#0" expanded="true" />
-                <element signature="e#5110#5111#0" expanded="true" />
-                <element signature="e#5151#5152#0" expanded="true" />
-                <element signature="e#5190#5191#0" expanded="true" />
-                <element signature="e#5222#5223#0" expanded="true" />
-                <element signature="e#5261#5262#0" expanded="true" />
-                <element signature="e#5293#5294#0" expanded="true" />
-                <element signature="e#5332#5333#0" expanded="true" />
-                <element signature="e#5364#5365#0" expanded="true" />
-                <element signature="e#5403#5404#0" expanded="true" />
-                <element signature="e#5435#5436#0" expanded="true" />
-                <element signature="e#5520#5521#0" expanded="true" />
+                <marker date="1516302795078" expanded="true" signature="990:1102" ph="SELECT * FRO... Arbitre" />
+                <marker date="1516302795078" expanded="true" signature="1820:1965" ph="SELECT * FRO... RamasseurDeBalle" />
+                <marker date="1516302795078" expanded="true" signature="2598:2734" ph="SELECT * FRO... Match" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlanningController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/PlanningController.java">
+      <file leaf-file-name="Terrain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/entity/Terrain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="112" column="9" lean-forward="true" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
+            <state relative-caret-position="480">
+              <caret line="46" column="38" lean-forward="true" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+              <folding>
+                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Arbitre.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/entity/Arbitre.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="58" column="37" lean-forward="false" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
+              <folding>
+                <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlanningTableModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/PlanningTableModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="25" column="24" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MatchListModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/MatchListModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#656#657#0" expanded="true" />
-                <element signature="e#696#697#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TerrainDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dao/TerrainDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="36" column="18" lean-forward="false" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1516300501414" expanded="true" signature="562:583" ph="SELECT * FRO... Terrain" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlanningController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/controller/PlanningController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="213" column="61" lean-forward="false" selection-start-line="213" selection-start-column="61" selection-end-line="213" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -104,24 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EquipeRamasseurDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dao/EquipeRamasseurDAO.java">
+      <file leaf-file-name="ArbitreController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/ArbitreController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1516287684302" expanded="true" signature="535:611" ph="SELECT * FRO... EquipeRamasseur" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RamasseurDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dao/RamasseurDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            <state relative-caret-position="616">
+              <caret line="89" column="13" lean-forward="true" selection-start-line="66" selection-start-column="12" selection-end-line="89" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,91 +119,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NationaliteDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dao/NationaliteDAO.java">
+      <file leaf-file-name="Match.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/entity/Match.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
+            <state relative-caret-position="325">
+              <caret line="126" column="5" lean-forward="true" selection-start-line="126" selection-start-column="5" selection-end-line="126" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1516088567035" expanded="true" signature="519:544" ph="SELECT * FRO... Nationalite" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ramasseur.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/entity/Ramasseur.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-              <folding>
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#307#308#0" expanded="true" />
-                <element signature="e#338#339#0" expanded="true" />
-                <element signature="e#373#374#0" expanded="true" />
-                <element signature="e#407#408#0" expanded="true" />
-                <element signature="e#458#459#0" expanded="true" />
-                <element signature="e#504#505#0" expanded="true" />
-                <element signature="e#534#535#0" expanded="true" />
-                <element signature="e#560#561#0" expanded="true" />
-                <element signature="e#598#599#0" expanded="true" />
-                <element signature="e#628#629#0" expanded="true" />
-                <element signature="e#661#662#0" expanded="true" />
-                <element signature="e#690#691#0" expanded="true" />
-                <element signature="e#734#735#0" expanded="true" />
-                <element signature="e#770#771#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EquipeRamasseur.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/entity/EquipeRamasseur.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-              <folding>
-                <element signature="e#249#250#0" expanded="true" />
-                <element signature="e#280#281#0" expanded="true" />
-                <element signature="e#325#326#0" expanded="true" />
-                <element signature="e#365#366#0" expanded="true" />
-                <element signature="e#398#399#0" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#477#478#0" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#570#571#0" expanded="true" />
-                <element signature="e#603#604#0" expanded="true" />
-                <element signature="e#669#670#0" expanded="true" />
-                <element signature="e#713#714#0" expanded="true" />
-                <element signature="e#765#766#0" expanded="true" />
-                <element signature="e#806#807#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JoueurDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dao/JoueurDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="46" column="22" lean-forward="false" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1516282910133" expanded="true" signature="573:644" ph="SELECT * FRO... Joueur" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JourneeDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dao/JourneeDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="41" column="19" lean-forward="false" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1516282910112" expanded="true" signature="609:630" ph="SELECT * FRO... Journee" />
+                <element signature="e#2755#2756#0" expanded="true" />
+                <element signature="e#2837#2838#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -248,10 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/dao/DAOFactoryOracle.java" />
-        <option value="$PROJECT_DIR$/src/dao/ExempleDAO.java" />
-        <option value="$PROJECT_DIR$/src/models/Test.java" />
-        <option value="$PROJECT_DIR$/src/test/Test.java" />
         <option value="$PROJECT_DIR$/src/test/MainTest.java" />
         <option value="$PROJECT_DIR$/src/dao/Connection.java" />
         <option value="$PROJECT_DIR$/src/models/App.java" />
@@ -274,15 +184,11 @@
         <option value="$PROJECT_DIR$/src/App/test.java" />
         <option value="$PROJECT_DIR$/src/App/ArbitreListRenderer.java" />
         <option value="$PROJECT_DIR$/src/entity/Nationalite.java" />
-        <option value="$PROJECT_DIR$/src/entity/Arbitre.java" />
         <option value="$PROJECT_DIR$/src/model/ArbitreListModel.java" />
         <option value="$PROJECT_DIR$/src/dao/ArbitreDAO.java" />
         <option value="$PROJECT_DIR$/src/controller/ArbitreController.java" />
         <option value="$PROJECT_DIR$/src/App/MainTest.java" />
-        <option value="$PROJECT_DIR$/src/model/PlanningTableModel.java" />
-        <option value="$PROJECT_DIR$/src/entity/Terrain.java" />
         <option value="$PROJECT_DIR$/src/dao/TerrainDao.java" />
-        <option value="$PROJECT_DIR$/src/entity/Journee.java" />
         <option value="$PROJECT_DIR$/src/dao/JourneeDao.java" />
         <option value="$PROJECT_DIR$/src/model/PlanningTableSelectionModel.java" />
         <option value="$PROJECT_DIR$/src/App/AdminGUI.form" />
@@ -290,12 +196,23 @@
         <option value="$PROJECT_DIR$/src/dao/JoueurDao.java" />
         <option value="$PROJECT_DIR$/src/entity/Joueur.java" />
         <option value="$PROJECT_DIR$/src/dao/RamasseurDao.java" />
-        <option value="$PROJECT_DIR$/src/dao/JourneeDAO.java" />
         <option value="$PROJECT_DIR$/src/entity/Ramasseur.java" />
         <option value="$PROJECT_DIR$/src/dao/RamasseurDAO.java" />
         <option value="$PROJECT_DIR$/src/dao/EquipeRamasseurDAO.java" />
-        <option value="$PROJECT_DIR$/src/controller/PlanningController.java" />
         <option value="$PROJECT_DIR$/src/entity/EquipeRamasseur.java" />
+        <option value="$PROJECT_DIR$/src/entity/Competion.java" />
+        <option value="$PROJECT_DIR$/src/dao/JourneeDAO.java" />
+        <option value="$PROJECT_DIR$/src/dao/CompetitionDAO.java" />
+        <option value="$PROJECT_DIR$/src/entity/Journee.java" />
+        <option value="$PROJECT_DIR$/src/entity/Competition.java" />
+        <option value="$PROJECT_DIR$/src/model/MatchListModel.java" />
+        <option value="$PROJECT_DIR$/src/dao/TerrainDAO.java" />
+        <option value="$PROJECT_DIR$/src/entity/Match.java" />
+        <option value="$PROJECT_DIR$/src/dao/MatchDAO.java" />
+        <option value="$PROJECT_DIR$/src/entity/Terrain.java" />
+        <option value="$PROJECT_DIR$/src/entity/Arbitre.java" />
+        <option value="$PROJECT_DIR$/src/model/PlanningTableModel.java" />
+        <option value="$PROJECT_DIR$/src/controller/PlanningController.java" />
       </list>
     </option>
   </component>
@@ -1039,12 +956,12 @@
       <updated>1513246219788</updated>
       <workItem from="1513246221432" duration="3028000" />
       <workItem from="1515403811793" duration="2350000" />
-      <workItem from="1516012662133" duration="49341000" />
+      <workItem from="1516012662133" duration="62197000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54719000" />
+    <option name="totallyTimeSpent" value="67575000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="191" y="23" width="1458" height="938" extended-state="0" />
@@ -1053,32 +970,32 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1438435" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17215364" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3981588" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1096,32 +1013,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/dao/ConnectionSQL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GestionPlanning.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#552#553#0" expanded="false" />
+            <element signature="e#626#627#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1155,7 +1054,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1173,9 +1072,9 @@
         <state relative-caret-position="180">
           <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#552#553#0" expanded="false" />
+            <element signature="e#626#627#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1230,7 +1129,7 @@
         <state relative-caret-position="270">
           <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1240,7 +1139,7 @@
         <state relative-caret-position="390">
           <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1267,8 +1166,8 @@
           <caret line="35" column="5" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1516046191041" expanded="true" signature="552:604" ph="SELECT * FRO... Admin" />
-            <marker date="1516046191041" expanded="true" signature="1207:1301" ph="SELECT * FRO... Joueur" />
+            <marker date="1516288251121" expanded="true" signature="552:604" ph="SELECT * FRO... Admin" />
+            <marker date="1516288251121" expanded="true" signature="1207:1301" ph="SELECT * FRO... Joueur" />
           </folding>
         </state>
       </provider>
@@ -1320,9 +1219,9 @@
         <state relative-caret-position="195">
           <caret line="13" column="74" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="13" selection-end-column="74" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#600#601#0" expanded="false" />
+            <element signature="e#632#633#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1332,10 +1231,10 @@
         <state relative-caret-position="126">
           <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
-            <element signature="e#1035#1036#0" expanded="true" />
-            <element signature="e#1071#1072#0" expanded="true" />
-            <element signature="e#1395#1396#0" expanded="true" />
-            <element signature="e#1447#1448#0" expanded="true" />
+            <element signature="e#1035#1036#0" expanded="false" />
+            <element signature="e#1071#1072#0" expanded="false" />
+            <element signature="e#1395#1396#0" expanded="false" />
+            <element signature="e#1447#1448#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1345,81 +1244,7 @@
         <state relative-caret-position="210">
           <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/PlanningTableModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/ArbitreListModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/Terrain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#561#562#0" expanded="true" />
-            <element signature="e#597#598#0" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#745#746#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/Journee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/TerrainDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="42" column="23" lean-forward="false" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1516282910128" expanded="true" signature="562:583" ph="SELECT * FRO... Terrain" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1429,37 +1254,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/Arbitre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding>
-            <element signature="e#280#281#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/ArbitreController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/ArbitreDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1516258557436" expanded="true" signature="920:992" ph="SELECT * FRO... Arbitre" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1563,35 +1357,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/NationaliteDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1516088567035" expanded="true" signature="519:544" ph="SELECT * FRO... Nationalite" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/JourneeDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="41" column="19" lean-forward="false" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1516282910112" expanded="true" signature="609:630" ph="SELECT * FRO... Journee" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dao/JoueurDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="46" column="22" lean-forward="false" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1516282910133" expanded="true" signature="573:644" ph="SELECT * FRO... Joueur" />
+            <marker date="1516288251122" expanded="true" signature="573:644" ph="SELECT * FRO... Joueur" />
           </folding>
         </state>
       </provider>
@@ -1606,30 +1378,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/EquipeRamasseurDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/entity/EquipeRamasseur.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="200">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1516287684302" expanded="true" signature="535:611" ph="SELECT * FRO... EquipeRamasseur" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/AdminGUI.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/PlanningController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="112" column="9" lean-forward="true" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#806#807#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1658,25 +1425,193 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/EquipeRamasseur.java">
+    <entry file="file://$PROJECT_DIR$/src/dao/NationaliteDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="464">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
-            <element signature="e#249#250#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <marker date="1516288251123" expanded="true" signature="519:544" ph="SELECT * FRO... Nationalite" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/EquipeRamasseurDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1516288251121" expanded="true" signature="535:611" ph="SELECT * FRO... EquipeRamasseur" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/CompetitionDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/ArbitreDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="40" column="20" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="40" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1516288251120" expanded="true" signature="920:992" ph="SELECT * FRO... Arbitre" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/Competition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+          <folding>
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/Journee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+          <folding>
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/ArbitreListModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="54" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/JourneeDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="37" column="18" lean-forward="false" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1516289905715" expanded="true" signature="609:630" ph="SELECT * FRO... Journee" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/TerrainDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="36" column="18" lean-forward="false" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1516300501414" expanded="true" signature="562:583" ph="SELECT * FRO... Terrain" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/ArbitreController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="89" column="13" lean-forward="true" selection-start-line="66" selection-start-column="12" selection-end-line="89" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/Match.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="126" column="5" lean-forward="true" selection-start-line="126" selection-start-column="5" selection-end-line="126" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2755#2756#0" expanded="true" />
+            <element signature="e#2837#2838#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/Terrain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="46" column="38" lean-forward="true" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+          <folding>
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/Arbitre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="58" column="37" lean-forward="false" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
+          <folding>
+            <element signature="e#253#254#0" expanded="true" />
             <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
-            <element signature="e#669#670#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/MatchDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="27" column="45" lean-forward="true" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1516302795078" expanded="true" signature="990:1102" ph="SELECT * FRO... Arbitre" />
+            <marker date="1516302795078" expanded="true" signature="1820:1965" ph="SELECT * FRO... RamasseurDeBalle" />
+            <marker date="1516302795078" expanded="true" signature="2598:2734" ph="SELECT * FRO... Match" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/PlanningTableModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="25" column="24" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/AdminGUI.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/MatchListModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/PlanningController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="213" column="61" lean-forward="false" selection-start-line="213" selection-start-column="61" selection-end-line="213" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
