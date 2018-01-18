@@ -40,8 +40,6 @@ if(isset($_SESSION['logged']) && $_SESSION['logged']) {
 				$reduction = 1 - ($promotion->getPourcentage() / 100);
 				$prix = calculPrixBillet($prixNiveau, $reduction);
 				$prixTotal = $prix * $nbBillet;
-				echo $prix;
-				echo $prixTotal;
 
 			} elseif($promotion) {
 				$_SESSION['toast'] = "Erreur : il n'y a plus assez place disponible pour cette promotion";
@@ -62,8 +60,7 @@ if(isset($_SESSION['logged']) && $_SESSION['logged']) {
 				$reduction = 1 - ($promotion->getPourcentage() / 100);
 				$prix = calculPrixBillet($prixNiveau, $reduction);
 				$prixTotal = $prix * $nbBillet;
-				echo $prix;
-				echo $prixTotal;
+
 			} else {
 				$_SESSION['toast'] = "Erreur : le numéro de licence est incorrect";
 				header('Location: index.php?page=placement&jour='.$_POST['jour']);
@@ -72,8 +69,6 @@ if(isset($_SESSION['logged']) && $_SESSION['logged']) {
 		} else {
 			$prix = calculPrixBillet($prixNiveau);
 			$prixTotal = $prix * $nbBillet;
-			echo $prix;
-			echo $prixTotal;
 
 		}
 
@@ -84,6 +79,12 @@ if(isset($_SESSION['logged']) && $_SESSION['logged']) {
 
 	}
 
+} elseif(isset($_POST['validerAchat'])) {
+	require_once(PATH_VIEWS.'achat.php');
+} elseif(isset($_POST['annuler'])) {
+	$_SESSION['toast'] = "Votre achat a bien été annulé";
+	header('Location: index.php');
+	exit(-1);
 } else {
 	header('Location: index.php?page=404');
 	exit(-1);
