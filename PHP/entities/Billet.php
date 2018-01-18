@@ -1,24 +1,20 @@
 <?php
 
 class Billet {
-	private $_identifiant;
+	private $_idBillet;
 	private $_prixBillet;
 
-	public function __construct($identifiant, $prixBillet) {
-		$this->_identifiant = $identifiant;
+	public function __construct($idBillet, $prixBillet) {
+		$this->_idBillet = $idBillet;
 		$this->_prixBillet = $prixBillet;
 	}
 
-	public function getIdentifiant() {
+	public function getIdBillet() {
 		return $this->_identifiant;
 	}
 
 	public function getPrixBillet() {
 		return $this->_prixBillet;
-	}
-
-	public function setIdentifiant($identifiant) {
-		$this->_identifiant = $identifiant;
 	}
 
 	public function setPrixBillet($prixBillet) {

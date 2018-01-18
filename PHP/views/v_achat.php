@@ -4,6 +4,11 @@
 <!--  Début de la page -->
 <?php if(!isset($_POST['validerAchat']) && !isset($_POST['annuler'])): ?>
 <form action="#" method="post" class="col s12">
+	<input type="hidden" name="nbBillet" value="<?= $nbBillet ?>">
+	<input type="hidden" name="prix" value="<?= $prix ?>">
+	<?php if(isset($promotion)): ?>
+	<input type="hidden" name="promotion" value="<?= $promotion->getIdPromotion() ?>">
+	<?php endif; ?>
 	<div class="row">
 		<div class="col s6 offset-s3">
 		</div>

@@ -8,6 +8,11 @@ require_once(PATH_MODELS.'LicenceDAO.php');
 require_once(PATH_LIB.'foncBase.php');
 
 $jours = array(1, 2, 3, 4, 5, 6, 7, 8, 9);
+$emplacementDAO = new EmplacementDAO(DEBUG);
+$promotionDAO = new PromotionDAO(DEBUG);
+$niveauDAO = new NiveauDAO(DEBUG);
+$licenceDAO = new LicenceDAO(DEBUG);
+$billetDAO = new BilletDAO(DEBUG);
 
 if(isset($_SESSION['logged']) && $_SESSION['logged']) {
 	header('Location: index.php');
@@ -23,11 +28,6 @@ if(isset($_SESSION['logged']) && $_SESSION['logged']) {
 		$billets = array();
 		$prix = 0;
 		$nbBillet = htmlspecialchars($_POST['nbPlace']);
-
-		$emplacementDAO = new EmplacementDAO(DEBUG);
-		$niveauDAO = new NiveauDAO(DEBUG);
-		$promotionDAO = new PromotionDAO(DEBUG);
-		$licenceDAO = new LicenceDAO(DEBUG);
 
 		$emplacement = $emplacementDAO->getEmplacementByBloc(htmlspecialchars($_POST['bloc']));
 		$niveau = $niveauDAO->getNiveauById($emplacement->getIdNiveau());
@@ -72,14 +72,33 @@ if(isset($_SESSION['logged']) && $_SESSION['logged']) {
 
 		}
 
-		//Gestion du billet
-		//$prix = * $reduction;
-
 		require_once(PATH_VIEWS.'achat.php');
 
 	}
 
 } elseif(isset($_POST['validerAchat'])) {
+	$nbBillet = (int) htmlspecialchars($_POST['nbBillet']);
+	$prix = (float) htmlspecialchars($_POST['prix']);
+	if(isset($_POST['promotion'])) {
+		$promotion = $promotionDAO->getPromotionById(htmlspecialchars($_POST['promotion']));
+	}
+
+	for($i = 0; $i < $nbBillet; $i++) {
+		$result = $billetDAO->insertBillet($prix);
+		if(!$result) {
+			break;
+		}
+	}
+
+	if(!$result) {
+		$_SESSION['toast'] = "Erreur lors de la création des billet en base de données";
+	} elseif(isset($promotion) && $promotion->getNbilletRestant() != NULL) {
+		$result = $promotionDAO->changePromotion($promotion->getIdPromotion(), $promotion->getNbilletRestant() - $nbBillet, $promotion->getPourcentage());
+		if(!$result) {
+			$_SESSION['toast'] = "Erreur lors de la modifiaction des billets restants";
+		}
+	}
+
 	require_once(PATH_VIEWS.'achat.php');
 } elseif(isset($_POST['annuler'])) {
 	$_SESSION['toast'] = "Votre achat a bien été annulé";

@@ -59,7 +59,7 @@
 			</div>
 
 			<div class="input-field">
-				  <input id="nb_billet" name="nbBillet" type="number" min="1" max="500" class="validate" required>
+				  <input id="nb_billet" name="nbBillet" type="number" min="1" max="500" class="validate">
 				  <label for="nb_billet">Nombre de billet :</label>
 			</div>
 
