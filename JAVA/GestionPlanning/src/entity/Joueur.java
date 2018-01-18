@@ -1,23 +1,14 @@
-package models;
+package entity;
 
 /**
- * Created by xontik on 14/12/2017.
+ * Created by xontik on 18/01/2018.
  */
-public class Test {
+public class Joueur {
     private int idJoueur;
     private String nom;
     private String prenom;
     private int classement;
-    private String nationalite;
-
-
-    public Test(int idJoueur, String nom, String prenom, int classement, String nationalite) {
-        this.idJoueur = idJoueur;
-        this.nom = nom;
-        this.prenom = prenom;
-        this.classement = classement;
-        this.nationalite = nationalite;
-    }
+    private Nationalite nationalite;
 
     public int getIdJoueur() {
         return idJoueur;
@@ -51,11 +42,16 @@ public class Test {
         this.classement = classement;
     }
 
-    public String getNationalite() {
+    public Nationalite getNationalite() {
         return nationalite;
     }
 
-    public void setNationalite(String nationalite) {
+    public void setNationalite(Nationalite nationalite) {
         this.nationalite = nationalite;
+    }
+
+    @Override
+    public String toString() {
+        return nom + " " + prenom + " ("+ nationalite.getShortName()+")";
     }
 }

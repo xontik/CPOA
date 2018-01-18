@@ -1,10 +1,8 @@
 package App;
 
 import dao.AuthentificationDAO;
-import dao.TestDAO;
-import models.Test;
 
-import java.sql.SQLException;
+import javax.swing.*;
 
 /**
  * Created by xontik on 14/12/2017.
@@ -14,9 +12,16 @@ public class MainTest {
 
     public static void main(String[] args) {
         ConnectionDialog dialog = new ConnectionDialog();
-        dialog.setVisible(true);
-        if(dialog.getTypeConnected() == AuthentificationDAO.TypePersonne.admin){
+        //dialog.setVisible(true);
+        if(dialog.getTypeConnected() == AuthentificationDAO.TypePersonne.admin || true){
             System.out.println("On fait la suite en tant qu'admin");
+            SwingUtilities.invokeLater(new Runnable() {
+                @Override
+                public void run() {
+                    AdminGUI adminGui = new AdminGUI();
+                }
+            });
+
 
         }else if(dialog.getTypeConnected() == AuthentificationDAO.TypePersonne.joueur){
             System.out.println("On fait la suite en tant que joueur");
@@ -25,6 +30,6 @@ public class MainTest {
             System.out.println("Jb the best");
         }
 
-        System.exit(0);
+
     }
 }
