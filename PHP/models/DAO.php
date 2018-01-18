@@ -1,11 +1,11 @@
 <?php
 require_once(PATH_MODELS.'Connexion.php');
-abstract class DAO 
+abstract class DAO
 {
 
   private $_erreur; //stocke les messages d'erreurs associées au PDOException
   private $_debug;
-  
+
   public function __construct($debug)
   {
     $this->_debug = $debug;
@@ -16,40 +16,46 @@ abstract class DAO
    return $this->_erreur;
   }
 
-  private function _requete($sql, $args = null)  
+  private function _requete($sql, $args = null)
   {
-    if ($args == null) 
+    if ($args == null)
     {
 	$pdos = Connexion::getInstance()->getBdd()->query($sql);// exécution directe
     }
-    else 
+    else
     {
 	$pdos = Connexion::getInstance()->getBdd()->prepare($sql);// requête préparée
 	$pdos->execute($args);
     }
     return $pdos;
   }
- 
+
   // retourne un tableau 1D avec les données d'un seul enregistrement
-  // ou false 
+  // ou false
   public function queryRow($sql, $args = null)
   {
 	try
 	{
 		$pdos = $this->_requete($sql, $args);
 		$res = $pdos->fetch();
-                $pdos->closeCursor();
+        $count = $pdos->rowCount();
+        $pdos->closeCursor();
 	}
 	catch(PDOException $e)
-	{ 
-	  if($this->_debug)
+	{
+	    if($this->_debug)
             die($e->getMessage());
-          $this->_erreur = 'query';
-	  $res = false;
-	} 
+        $this->_erreur = 'query';
+	    $res = false;
+	}
+
+    if($count == 0) {
+        $res = false;
+    }
+
     return $res;
   }
-  
+
   //retourne un tableau 2D avec éventuellement plusieurs enregistrements
   public function queryAll($sql, $args = null)
   {
@@ -57,15 +63,44 @@ abstract class DAO
 	{
 		$pdos = $this->_requete($sql, $args);
 		$res = $pdos->fetchAll();
-                $pdos->closeCursor();
+        $count = $pdos->rowCount();
+        $pdos->closeCursor();
 	}
 	catch(PDOException $e)
-	{ 
-	  if($this->_debug)
+	{
+	    if($this->_debug)
             die($e->getMessage());
-          $this->_erreur = 'query';
-	  $res = false;
-	} 
+        $this->_erreur = 'query';
+	    $res = false;
+	}
+
+    if($count == 0) {
+        $res = false;
+    }
+
+    return $res;
+  }
+
+  protected function queryBdd($sql, $args = null)
+  {
+    $res = true;
+    try
+    {
+	    $pdos = $this->_requete($sql, $args);
+        $count = $pdos->rowCount();
+        $pdos->closeCursor();
+    }
+    catch(PDOException $e)
+    {
+      if($this->_debug)
+        die($e->getMessage());
+      $this->_erreur = 'query';
+      $res = false;
+    }
+
+    if($count == 0) {
+        $res = false;
+    }
     return $res;
   }
 }

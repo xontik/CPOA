@@ -1,0 +1,14 @@
+#conteneur
+{
+    display: flex;
+    flex-wrap: wrap;
+	text-align:center;
+	align-items:center;
+	justify-content:center;
+	margin-top:15px;
+}
+.element{
+	margin-right:50px;
+	width: 300px;
+}
+
