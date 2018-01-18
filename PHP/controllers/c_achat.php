@@ -92,7 +92,7 @@ if(isset($_SESSION['logged']) && $_SESSION['logged']) {
 
 	if(!$result) {
 		$_SESSION['toast'] = "Erreur lors de la création des billet en base de données";
-	} elseif(isset($promotion) && $promotion->getNbilletRestant() != NULL) {
+	} elseif(isset($promotion) && $promotion->getNbilletRestant() - $nbBillet != 0) {
 		$result = $promotionDAO->changePromotion($promotion->getIdPromotion(), $promotion->getNbilletRestant() - $nbBillet, $promotion->getPourcentage());
 		if(!$result) {
 			$_SESSION['toast'] = "Erreur lors de la modifiaction des billets restants";

@@ -9,7 +9,9 @@
 					<option value="" disabled selected>Choisissez un code promo :</option>
 					<?php
 					foreach($promotions as $promotion) {
-						echo '<option value="'.$promotion->getIdPromotion().'">'.$promotion->getTypePromotion().'</option>';
+						if($promotion->getTypePromotion() != "Promo licencié") {
+							echo '<option value="'.$promotion->getIdPromotion().'">'.$promotion->getTypePromotion().'</option>';							
+						}
 					}
 					?>
 				</select>
