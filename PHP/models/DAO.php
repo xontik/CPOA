@@ -38,15 +38,21 @@ abstract class DAO
 	{
 		$pdos = $this->_requete($sql, $args);
 		$res = $pdos->fetch();
-                $pdos->closeCursor();
+        $count = $pdos->rowCount();
+        $pdos->closeCursor();
 	}
 	catch(PDOException $e)
 	{
-	  if($this->_debug)
+	    if($this->_debug)
             die($e->getMessage());
-          $this->_erreur = 'query';
-	  $res = false;
+        $this->_erreur = 'query';
+	    $res = false;
 	}
+
+    if($count == 0) {
+        $res = false;
+    }
+
     return $res;
   }
 
@@ -57,15 +63,21 @@ abstract class DAO
 	{
 		$pdos = $this->_requete($sql, $args);
 		$res = $pdos->fetchAll();
-                $pdos->closeCursor();
+        $count = $pdos->rowCount();
+        $pdos->closeCursor();
 	}
 	catch(PDOException $e)
 	{
-	  if($this->_debug)
+	    if($this->_debug)
             die($e->getMessage());
-          $this->_erreur = 'query';
-	  $res = false;
+        $this->_erreur = 'query';
+	    $res = false;
 	}
+
+    if($count == 0) {
+        $res = false;
+    }
+
     return $res;
   }
 

@@ -18,4 +18,14 @@ class EmplacementDAO extends DAO {
 
         return $emplacements;
     }
+
+	public function getEmplacementByBloc($bloc) {
+		$res = $this->queryRow('SELECT * FROM Emplacement WHERE bloc = ?', array($bloc));
+
+		if($res) {
+			return new Emplacement($res['idEmplacement'], $res['bloc'], $res['idNiveau']);
+		} else {
+			return $res;
+		}
+	}
 }

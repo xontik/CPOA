@@ -18,32 +18,36 @@ class Promotion {
 	public function setIdPromotion($idPromotion){
         $this->_idPromotion = $idPromotion;
     }
+
 	public function setCode($code){
         $this->_code = $code;
     }
-	public function setTypePromotion($typePromotion){
-        $this->_typePromotion = $typePromotion;
-    }
+
 	public function setNbBilletRestant($nbBilletRestant){
         $this->_nbBilletRestant = $nbBilletRestant;
     }
+
 	public function setPourcentage($pourcentage){
         $this->_pourcentage = $pourcentage;
     }
 
-	 public function getIdPromotion(){
+	public function getIdPromotion(){
         return $this->_idPromotion;
     }
-	 public function getCode(){
+
+	public function getCode(){
         return $this->_code;
     }
-	 public function getTypePromotion(){
+
+	public function getTypePromotion(){
         return $this->_typePromotion;
     }
-	 public function getNbilletRestant(){
+
+	public function getNbilletRestant(){
         return $this->_nbBilletRestant;
     }
-	 public function getPourcentage(){
+
+	public function getPourcentage(){
         return $this->_pourcentage;
     }
 }

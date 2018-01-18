@@ -20,28 +20,33 @@
 				</select>
 				<label>Bloc :</label>
 			</div>
-			
+
 			<div class="input-field">
 			  <input id="nb_billet" name="nbPlace" type="number" min="1" max="10" class="validate" required>
 			  <label for="nb_billet">Nombre de place :</label>
 			</div>
-			
+
+			<?php if($_GET['jour'] != 9): ?>
+
 			<div class="input-field">
 			  <input id="code_promo" name="codePromo" type="text" class="validate">
 			  <label for="code_promo">Code promo :</label>
 			</div>
-			
+
 			<div class="input-field">
 			  <input id="num_licencie" name="licence" type="text" class="validate">
 			  <label for="num_licencie">Numéro de licence :</label>
 			</div>
+			
+			<?php endif; ?>
+
 			<div class="col s6 offset-s3">
 				<button class="btn waves-effect waves-light" type="submit" name="achat"  style="margin-bottom:30px;">Finaliser l'achat
 					<i class="material-icons right">send</i>
 				</button>
 			</div>
 		</div>
-	</div>	
+	</div>
 </form>
 <!--  Fin de la page -->
 

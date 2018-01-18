@@ -2,7 +2,10 @@
 
 require_once(PATH_MODELS.'EmplacementDAO.php');
 require_once(PATH_MODELS.'NiveauDAO.php');
+require_once(PATH_MODELS.'PromotionDAO.php');
 require_once(PATH_MODELS.'BilletDAO.php');
+require_once(PATH_MODELS.'LicenceDAO.php');
+require_once(PATH_LIB.'foncBase.php');
 
 $jours = array(1, 2, 3, 4, 5, 6, 7, 8, 9);
 
@@ -10,19 +13,68 @@ if(isset($_SESSION['logged']) && $_SESSION['logged']) {
 	header('Location: index.php');
 	exit(-1);
 
-} elseif(isset($_POST['achat']) && isset($_POST['bloc']) && isset($_POST['nbPlace']) && in_array($_POST['jour'], $jours)) {
+} elseif(isset($_POST['achat']) && in_array($_POST['jour'], $jours)) {
 	if(!empty($_POST['codePromo']) && !empty($_POST['licence'])) {
-		echo "PROBLEME : On ne peut renseigner un code promo et un numéro de licence";
+		$_SESSION['toast'] = "Erreur : vous ne pouvez renseigner un code promotionnel et un numéro de licence";
+		header('Location: index.php?page=placement&jour='.$_POST['jour']);
+		exit(-1);
 
 	} else {
-		$reduction = 1;
+		$billets = array();
+		$prix = 0;
+		$nbBillet = htmlspecialchars($_POST['nbPlace']);
+
+		$emplacementDAO = new EmplacementDAO(DEBUG);
+		$niveauDAO = new NiveauDAO(DEBUG);
+		$promotionDAO = new PromotionDAO(DEBUG);
+		$licenceDAO = new LicenceDAO(DEBUG);
+
+		$emplacement = $emplacementDAO->getEmplacementByBloc(htmlspecialchars($_POST['bloc']));
+		$niveau = $niveauDAO->getNiveauById($emplacement->getIdNiveau());
+		$prixNiveau = $niveau->getPrixNiveau();
+
 		if(!empty($_POST['codePromo'])) {
-			echo "TODO faire gestion si mauvais code promo";
-			echo "TODO faire gestion code promo";
+			$promotion = $promotionDAO->getPromotionByCode(htmlspecialchars($_POST['codePromo']));
+
+			if($promotion && $promotion->getNbilletRestant() >= $nbBillet) {
+				$reduction = 1 - ($promotion->getPourcentage() / 100);
+				$prix = calculPrixBillet($prixNiveau, $reduction);
+				$prixTotal = $prix * $nbBillet;
+				echo $prix;
+				echo $prixTotal;
+
+			} elseif($promotion) {
+				$_SESSION['toast'] = "Erreur : il n'y a plus assez place disponible pour cette promotion";
+				header('Location: index.php?page=placement&jour='.$_POST['jour']);
+				exit(-1);
+
+			} else {
+				$_SESSION['toast'] = "Erreur : le code promotionnel rentré est incorrect";
+				header('Location: index.php?page=placement&jour='.$_POST['jour']);
+				exit(-1);
+			}
 
 		} elseif(!empty($_POST['licence'])) {
-			echo "TODO faire gestion si mauvais numéro de licence";
-			echo "TODO faire gestion du numéro de licence";
+			$licence = $licenceDAO->getLicenceByNum(htmlspecialchars($_POST['licence']));
+
+			if($licence) {
+				$promotion = $promotionDAO->getPromotionLicence();
+				$reduction = 1 - ($promotion->getPourcentage() / 100);
+				$prix = calculPrixBillet($prixNiveau, $reduction);
+				$prixTotal = $prix * $nbBillet;
+				echo $prix;
+				echo $prixTotal;
+			} else {
+				$_SESSION['toast'] = "Erreur : le numéro de licence est incorrect";
+				header('Location: index.php?page=placement&jour='.$_POST['jour']);
+				exit(-1);
+			}
+		} else {
+			$prix = calculPrixBillet($prixNiveau);
+			$prixTotal = $prix * $nbBillet;
+			echo $prix;
+			echo $prixTotal;
+
 		}
 
 		//Gestion du billet
