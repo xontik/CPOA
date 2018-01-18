@@ -22,6 +22,7 @@
 				  <div class="container">
 					<div class="row">
 					  <div class="col l6 s12">
+						<a href="mailto:contact@openparc.fr?subject=Contact%20Open%20Parc">Nous contacter</a>
 						<p class="grey-text text-lighten-4">Site web réalisé par Benjamin Borlet, Jean-Baptiste Loutfalla et Emma Glasson pour un projet du module CPOA</p>
 					  </div>
 					  <div class="col l4 offset-l2 s12">

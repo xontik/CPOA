@@ -26,7 +26,6 @@
 						<li><a href="index.php?page=connexion">Se déconnecter</a></li>
 					<?php } else { ?>
 						<li><a href="index.php?page=billeterie">Billeterie</a></li>
-						<li><a href="index.php?page=contact">Contact</a></li>
 						<li><a href="index.php?page=partenaires">Partenaires</a></li>
 						<li><a href="index.php?page=connexion">Connexion</a></li>
 					<?php } ?>
