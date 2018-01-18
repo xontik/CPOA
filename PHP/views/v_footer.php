@@ -22,12 +22,12 @@
 				  <div class="container">
 					<div class="row">
 					  <div class="col l6 s12">
-						<a href="mailto:contact@openparc.fr?subject=Contact%20Open%20Parc">Nous contacter</a>
 						<p class="grey-text text-lighten-4">Site web réalisé par Benjamin Borlet, Jean-Baptiste Loutfalla et Emma Glasson pour un projet du module CPOA</p>
 					  </div>
 					  <div class="col l4 offset-l2 s12">
 						  <a class="grey-text text-lighten-3" href="https://www.facebook.com/openparcauvergnerhonealpes/"><img class="responsive-img" src="<?= PATH_IMAGES ?>icon_fb.png" width="50px"></a>
-						  <a class="grey-text text-lighten-3" href="https://twitter.com/OpenParcARA"><img class="responsive-img" src="<?= PATH_IMAGES ?>icon_tw.png" width="45px"></a>
+						  <a class="grey-text text-lighten-3" href="https://twitter.com/OpenParcARA"><img class="responsive-img" src="<?= PATH_IMAGES ?>icon_tw.png" width="45px"></a><br>
+						  <a href="mailto:contact@openparc.fr?subject=Contact%20Open%20Parc">Nous contacter</a>
 					  </div>
 					</div>
 				  </div>

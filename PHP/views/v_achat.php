@@ -4,23 +4,34 @@
 <!--  Début de la page -->
 <?php if(!isset($_POST['validerAchat']) && !isset($_POST['annuler'])): ?>
 <form action="#" method="post" class="col s12">
-	<input type="hidden" name="nbBillet" value="<?= $nbBillet ?>">
-	<input type="hidden" name="prix" value="<?= $prix ?>">
-	<?php if(isset($promotion)): ?>
-	<input type="hidden" name="promotion" value="<?= $promotion->getIdPromotion() ?>">
-	<?php endif; ?>
 	<div class="row">
-		<div class="col s6 offset-s3">
+			<input type="hidden" name="nbBillet" value="<?= $nbBillet ?>">
+			<input type="hidden" name="prix" value="<?= $prix ?>">
+			<?php if(isset($promotion)): ?>
+			<input type="hidden" name="promotion" value="<?= $promotion->getIdPromotion() ?>">
+			<?php endif; ?>
+			<div class="row">
+				<div class="col s6 offset-s3">
+				</div>
+			</div>
+			<h2 style="text-align:center;">Prix d'un billet : <?= $prix ?>€</h2>
+			<h2 style="text-align:center;">Prix total : <?= $prixTotal ?>€</h2>
+
+		<div class="col s6 offset-s4">
+						<button class="btn waves-effect waves-light" type="submit" name="validerAchat" style="margin-right:20px;">Confirmer l'achat
+							<i class="material-icons right">send</i>
+						</button>
+			
+			
+			
+						<button class="btn waves-effect waves-light" type="submit" name="annuler">Annuler l'achat
+						</button>
 		</div>
 	</div>
-	<label>Prix d'un billet : <?= $prix ?>€</label>
-	<label>Prix total : <?= $prixTotal ?>€</label>
-
-	<input type="submit" name="validerAchat" value="Confirmer l'achat">
-	<input type="submit" name="annuler" value="Annuler l'achat">
 </form>
 <?php elseif(isset($_POST['validerAchat'])): ?>
-	<p>Vous allez être redirigé vers la page de payment. Merci de votre achat</p>
+	<h2 style="text-align:center;">Vous allez être redirigé vers une page de paiement... Merci de votre achat</h2>
+	<img class="responsive-img" src="<?= PATH_IMAGES ?>paiement.png" >
 <?php endif; ?>
 <!--  Fin de la page -->
 
