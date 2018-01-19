@@ -12,8 +12,8 @@ public class MainTest {
 
     public static void main(String[] args) {
         ConnectionDialog dialog = new ConnectionDialog();
-        //dialog.setVisible(true);
-        if(dialog.getTypeConnected() == AuthentificationDAO.TypePersonne.admin || true){
+        dialog.setVisible(true);
+        if(dialog.getTypeConnected() == AuthentificationDAO.TypePersonne.admin){
             System.out.println("On fait la suite en tant qu'admin");
             SwingUtilities.invokeLater(new Runnable() {
                 @Override
